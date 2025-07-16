@@ -26,3 +26,23 @@ unit add EchoTeam MEDIC 4 5
 log EchoTeam entering AlphaZone
 resource update medkits 12
 status
+
+---
+
+## Building and Running
+
+Ensure you have a Java Development Kit (JDK 8 or later) installed.
+
+Compile all source files from the repository root using the provided script:
+
+```bash
+./build.sh
+```
+
+Then start the simulator:
+
+```bash
+java Main
+```
+
+Type `exit` to close the application.
