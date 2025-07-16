@@ -19,11 +19,11 @@ public class TOCApp {
             System.out.print("> ");
             input = scanner.nextLine();
             if (input.equalsIgnoreCase("exit")) break;
-            handleCommand(input);
+            executeCommand(input);
         }
     }
 
-    private void handleCommand(String input) {
+    public void executeCommand(String input) {
         String[] tokens = input.split(" ");
         switch (tokens[0].toLowerCase()) {
             case "map":
